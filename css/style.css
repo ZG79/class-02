@@ -1,0 +1,35 @@
+h2 {
+    color: blueviolet;
+    background-color: antiquewhite;
+    width: 170px;
+    height: 30px;
+    border-radius: 45%;
+    padding-left:3%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    padding: 2%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+p {
+    padding: 1%;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+    background-image: url(/img/background.jpg.jpeg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: screen;
+}
+
+
