@@ -1,3 +1,5 @@
+'use strict';
+
 let welcome = 'Welcome to my page';
 alert(welcome);
 let name = prompt('What is your name?');
