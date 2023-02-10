@@ -14,7 +14,7 @@ if (result){
 let q1 = prompt('Does Zeegii like coding?');
 if (q1.toLowerCase()==='yes'.toLowerCase()){
   alert('great answer!'); 
-  console.log('great answer!');
+  //console.log('great answer!');
 }else {
   alert('I do like coding!!!');
 }
@@ -30,7 +30,7 @@ if (q2.toLowerCase()==='no'.toLowerCase()){
 let q3 = prompt('Do I want to swtich my career?');
 if (q3.toLowerCase()==='yes'.toLowerCase()){
   alert('You got that right!'); 
-  console.log('You got that right!');
+  //console.log('You got that right!');
 }else {
   alert('I love medicine, though I really want to try software development now.');
 }
@@ -38,7 +38,7 @@ if (q3.toLowerCase()==='yes'.toLowerCase()){
 let q4 = prompt('Have I considered to be a photographer?');
 if (q4.toLowerCase()==='yes'.toLowerCase()){
   alert('Yes.. My other passion');
-  console.log('Yes.. My other passion');
+  //console.log('Yes.. My other passion');
 }else {
   alert('I have, I really have..');
 }
@@ -46,7 +46,7 @@ if (q4.toLowerCase()==='yes'.toLowerCase()){
 let q5 = prompt('Ok.. the last question... \n Am I in the school now?'); 
 if (q5.toLowerCase()==='yes'.toLowerCase()){
   alert('CODE FELLOWS!!!'); 
-  console.log('CODE FELLOWS!!!');
+  //console.log('CODE FELLOWS!!!');
 }else {
   alert(':(');
 }
