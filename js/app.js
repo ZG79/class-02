@@ -27,9 +27,9 @@ let q2 = prompt( 'Do I use fork often?' ).toLowerCase();
 if ( q2 ==='yes' || q2 === 'y'){
 //console.log('I love spoons');
   alert( 'Nah...I love spoons' );
-  score+=1;
 } else if ( q2 ==='no' || q2 === 'n' ){
   alert( 'Correct!.... very very rarely I use fork...' );
+  score+=1;
 } else {
   alert ( 'Please insert valid answer.' );
 }
@@ -86,13 +86,13 @@ while (numberOfGuesses<4){
 }
 alert(`The correct answer was ${randomNum}`);
 //console.log(`The correct answer was ${randomNum}`);
-alert(`Your total score is ${score}.`);
+//console.log(`Your total score is ${score}.`);
 
 let photoEquipments = ['lens','battery','tripod','flashlight'];
 
 let q7 = prompt('Can you name a photographic equipments that I use often?').toLowerCase();
 let numOfAttempts = 0;
-while (numOfAttempts<4){
+while (numOfAttempts<6){
   numOfAttempts+=1;
   let found = false;
   for (let i =0; i<photoEquipments.length; i++){
@@ -105,7 +105,7 @@ while (numOfAttempts<4){
     alert('You got this!');
     score+=1;
     break;
-  } else if (numOfAttempts<4){
+  } else if (numOfAttempts<6){
     q7 = prompt('Can you try one more time?').toLowerCase();
   }
 }
