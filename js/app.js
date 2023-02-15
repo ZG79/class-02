@@ -114,3 +114,9 @@ alert(`The correct answers were ${photoEquipments}`);
 //console.log(score);
 let bye = `Thanks for answering all the questions ${name}, your total score is ${score}!`;
 alert(bye);
+
+function graffiti(message){
+  console.log(message);
+};
+
+graffiti('Stephanie was here');
