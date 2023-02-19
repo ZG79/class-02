@@ -6,7 +6,7 @@
 
 The users will have to answer 7 questions to see the whole website. Depending on the questions the users will get few opportunities to guess the correct answer.
 
-## Driver; Jonathan 
+## Driver; Jonathan
 
 ## Navigator; Zeegii
 
