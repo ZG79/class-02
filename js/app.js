@@ -65,7 +65,7 @@ function questionFour() {
 }
 
 function questionFive() {
-  let q5 = prompt('Ok.. the next question... \n Am I in the school now?').toLowerCase();
+  let q5 = prompt('Ok.. the next question... \n Am I in school now?').toLowerCase();
   if (q5 === 'yes' || q5 === 'y') {
     alert('CODE FELLOWS!!!');
     score += 1;
